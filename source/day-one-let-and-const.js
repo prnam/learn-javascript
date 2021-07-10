@@ -14,8 +14,8 @@ process.stdin.on('end', _ => {
     inputString = inputString.trim().split('\n').map(string => {
         return string.trim();
     });
-    
-    main();    
+
+    main();
 });
 
 function readLine() {
@@ -24,19 +24,19 @@ function readLine() {
 
 function main() {
     // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
-    let r=readLine()
+    let r = readLine()
     // Print the area of the circle:
-    let area=Math.PI*parseFloat(r)**2;
+    let area = Math.PI * parseFloat(r) ** 2;
     console.log(area)
     // Print the perimeter of the circle:
-    let perimeter=2*Math.PI*r;
+    let perimeter = 2 * Math.PI * r;
     console.log(perimeter)
-    try {    
+    try {
         // Attempt to redefine the value of constant variable PI
         PI = 0;
         // Attempt to print the value of PI
         console.log(PI);
-    } catch(error) {
+    } catch (error) {
         console.error("You correctly declared 'PI' as a constant.");
     }
 }

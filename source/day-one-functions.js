@@ -14,8 +14,8 @@ process.stdin.on('end', _ => {
     inputString = inputString.trim().split('\n').map(string => {
         return string.trim();
     });
-    
-    main();    
+
+    main();
 });
 
 function readLine() {
@@ -25,16 +25,16 @@ function readLine() {
 /*
  * Create the function factorial here
  */
-function factorial(n){
-    if (n===0){
+function factorial(n) {
+    if (n === 0) {
         return 1;
-    }else{
-        return (n*factorial(n-1));
+    } else {
+        return (n * factorial(n - 1));
     }
 }
 
 function main() {
     const n = +(readLine());
-    
+
     console.log(factorial(n));
 }
