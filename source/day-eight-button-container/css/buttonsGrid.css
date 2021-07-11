@@ -1,0 +1,3 @@
+.buttonContainer {width: 75%;position: relative;}
+
+.buttonContainer > .buttonClass { position: relative;width: 30%;height: 48px;font-size: 24px;}
