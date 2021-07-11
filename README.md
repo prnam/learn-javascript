@@ -1,1 +1,1 @@
-# code-snippets-javascript
+# Ten days of JavaScript
